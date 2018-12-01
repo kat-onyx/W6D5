@@ -1,0 +1,58 @@
+/* PHASE 12: Modal */
+.modal {
+  display: none;
+}
+
+.is-open {
+  display: block;
+}
+
+.modal-screen {
+  position: relative;
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-form {
+  position: absolute;
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-form {
+  margin: 0 0 20px 0;
+}
+
+.modal-form > label {
+  display: block;
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.modal-form > modal-form,
+.modal-form > textarea {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(100% - 22px);
+  border-radius: 5px;
+}
+
+.modal-form > modal-form:focus,
+.modal-form > textarea:focus {
+  border-color: #0c0;
+}
+
+.input > textarea {
+  height: 120px;
+}

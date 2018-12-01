@@ -1,0 +1,30 @@
+.clock {
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.clock-title {
+  font-size: 100px;
+  margin: 10px;
+}
+
+.hours {
+  font-size: 50px;
+  margin-top: 122px;
+}
+.minutes {
+  font-size: 50px;
+  margin-top: 135px;
+}
+
+.seconds {
+  font-size: 50px;
+  margin-top: 145px;
+}
+
+body {
+  background: url("https://vignette.wikia.nocookie.net/va11halla/images/b/b2/Glitch_City.png/revision/latest?cb=20161221162706");
+  background-size: cover;
+}
